@@ -11,12 +11,6 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8, 3.9]
-      labels:
-      - self-hosted
-      - Linux
-      - X64
-      - label-1
-      - label-2
 
 
     steps:
